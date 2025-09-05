@@ -87,4 +87,3 @@
 * [Twitter](https://x.com/officialv_west)
 * [Email](mailto:victorwaribokowest@gmail.com)
 
-```
