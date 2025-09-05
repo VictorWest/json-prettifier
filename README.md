@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JSON Prettifier (Lightweight)
 
-## Getting Started
+A minimal Next.js app for formatting and beautifying JSON input.  
+It provides real-time prettification, error fallback, and copy-to-clipboard functionality.
 
-First, run the development server:
+---
 
+## Features
+- Paste or type JSON into the left panel.
+- Prettify JSON with proper indentation.
+- Error handling via backend fallback.
+- Copy formatted JSON with one click.
+- Clean dark UI with social links.
+
+---
+
+## Tech Stack
+- **Next.js** (React framework)
+- **TypeScript**
+- **Tailwind CSS**
+- **Material UI**
+- **React Icons**
+
+---
+
+## Installation
 ```bash
+# Clone the repo
+git clone <repository_url>
+
+# Navigate to folder
+cd json-prettifier
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
