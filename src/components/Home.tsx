@@ -9,7 +9,7 @@ export default function Home() {
     <div className="font-sans min-h-screen p-10 space-y-10 bg-[#212121]">
       <div>
         <header className="text-stone-200 text-start w-full flex justify-between">
-          <div className="text-4xl font-bold">JSON PRETTIFIER <span className="text-xs text-stone-500">lightweight</span></div>
+          <div className="md:text-4xl font-bold">JSON PRETTIFIER <span className="text-xs text-stone-500">lightweight</span></div>
           <div className="flex flex-col gap-2 items-center">
             <p className="text-xs">Connect with Victor</p>
             <div className="flex gap-2 items-center *:hover:opacity-90">
