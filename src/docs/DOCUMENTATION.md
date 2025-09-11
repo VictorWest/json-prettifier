@@ -30,11 +30,13 @@
   * `handlePrettify`:
 
     * Attempts `JSON.parse` + `JSON.stringify` with indentation.
-    * If parsing fails, calls backend `main(input)` for error handling.
+    * If parsing fails, the `error` is bubbled to the user, for rectification.
+
   * `handleCopy`:
 
     * Copies `formatted` JSON to clipboard using `copyToClipboard`.
     * Displays temporary "Copied!" state.
+    
 * **UI**:
 
   * Left textarea: user input.
