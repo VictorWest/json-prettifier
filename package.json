@@ -14,7 +14,7 @@
     "@emotion/styled": "^11.14.1",
     "@google/genai": "^1.0.0",
     "@mui/material": "^7.3.2",
-    "next": "15.5.2",
+    "next": "15.5.9",
     "openai": "^5.19.1",
     "react": "19.1.0",
     "react-dom": "19.1.0",
